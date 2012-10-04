@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link href="persona.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <span id="signin"  class="button">Signin with Persona</span>
+  <span id="signout" class="button">Logout</span>
+
+  <div class="container"  style="padding-top: 10em">
+    <div>
+      <div>
+        User: <span id="user"></span>
+      </div>
+      <div>
+        Location: <span id="location"></span>
+      </div>
+    </div>
+    <div>status:
+      <span id="status"></span>
+    </div>
+    <div>code:
+      <span id="assertion"></span>
+    </div>
+  </div>
+  <div id="mapContainer">
+    <div id="map"></div>
+  </div>
+
+  <div id="ad"></div>
+
+  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <script src="https://login.persona.org/include.orig.js"></script>
+
+  <script src="adsense.js"></script>
+  <script src="maps.js"></script>
+
+  <script src="persona.js"></script>
+
+</body>
+</html>
